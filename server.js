@@ -24,9 +24,9 @@ const server =http.createServer( (req, res) =>{
     const content = {
         hostname:(os.hostname()),
        platform:(os.platform()),
-        arch:(os.arch()),
-        cpu:(os.cpus().length),
-        networkinterface:(os.networkInterfaces()),
+        architecture:(os.arch()),
+      numberOfCPUS:(os.cpus().length),
+        networkInterfaces:(os.networkInterfaces()),
         uptime:(os.uptime()),
     };
 

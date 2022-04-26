@@ -1,9 +1,9 @@
 {
   "hostname": "DESKTOP-DMQP5AJ",
   "platform": "win32",
-  "arch": "ia32",
-  "cpu": 4,
-  "networkinterface": {
+  "architecture ": "ia32",
+  "numberOfCPUS": 4,
+  "networkInterfaces": {
     "Loopback Pseudo-Interface 1": [
       {
         "address": "::1",
